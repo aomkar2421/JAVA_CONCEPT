@@ -6,11 +6,11 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
-public class PDFExample {
+public class ImageExample {
 	public static void main(String[] args) throws IOException {
 		
-		File file = new File("sample.pdf");
-		File file1 = new File("sample1.pdf");
+		File file = new File("sampleimage.jpg");
+		File file1 = new File("sampleimage1.jpg");
 		FileInputStream fis = new FileInputStream(file);
 		FileOutputStream fos = new FileOutputStream(file1);
 		

@@ -6,11 +6,11 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
-public class PDFExample {
+public class VideoExample {
 	public static void main(String[] args) throws IOException {
 		
-		File file = new File("sample.pdf");
-		File file1 = new File("sample1.pdf");
+		File file = new File("samplevideo.mp4");
+		File file1 = new File("samplevideo1.mp4");
 		FileInputStream fis = new FileInputStream(file);
 		FileOutputStream fos = new FileOutputStream(file1);
 		
