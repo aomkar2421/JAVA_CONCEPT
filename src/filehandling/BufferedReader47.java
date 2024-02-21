@@ -13,9 +13,9 @@ public class BufferedReader47 {
 		FileReader fr = new FileReader(file);
 		BufferedReader br = new BufferedReader(fr);
 		
-		for (int i = 0; i < file.length(); i++) {
-			System.out.print((char) br.read() );
-		}
-		
+//		for (int i = 0; i < file.length(); i++) {
+//			System.out.print((char) br.read() );
+//		}
+		System.out.println((char) br.read());
 	}
 }
